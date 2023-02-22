@@ -7,6 +7,8 @@ public void setup()
 public void draw()
 {
   background(60);
+    fill(255,255,255,100);
+    rect(0, height/2, 1500, 600);
   translate(width/2, height/2);
   Tendril(250);
   TendrilTwo(350);
