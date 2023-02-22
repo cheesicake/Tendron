@@ -1,6 +1,5 @@
- private float myNumSegments, myX, myY;
+private float myNumSegments, myX, myY;
 private float myAngle = PI/5;
-private int ink = 10;
 
   /**
    Class constructor
@@ -46,4 +45,4 @@ private int ink = 10;
       Cluster a = new Cluster((int)(myNumSegments/4), (int)startX, (int)startY);
     }
     */
-  }
+}
